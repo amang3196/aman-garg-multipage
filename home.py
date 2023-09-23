@@ -107,7 +107,7 @@ def app():
                      
                      - I often read articles on Psychology, Neuroscience, Astronomy, Phones & Laptops, Brain Computer Interface.
                      
-                     - Over the last couple of years I have built a habbit of going to the gym consistently. It was a tough habit to build but now I will never let it go. This habit has taught me how important discipline is in life.
+                     - Over the last couple of years I have built a habbit of going to the gym consistently. This habit has taught me how important discipline is in life.
                      
                      - I am curious by nature. So, I request you to not be annoyed if I ask a lot of question. 
                      
