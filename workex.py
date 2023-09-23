@@ -9,7 +9,7 @@ def app():
     st.write('\n')
 
     # Image paths
-    aethereus = "app/static/aethereus.png"
+    aethereus = "static/aethereus.png"
     alphaai = "static/alpha-ai.jpeg"
     vitesco = "static/vitesco.jpg"
     
