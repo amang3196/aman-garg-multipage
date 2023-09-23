@@ -54,8 +54,6 @@ def app():
         )
     with right_col:
         # Insert company logo
-        # img = Image.open("./static/aethereus1.png")
-        #st.image(img, width=275)
         st.markdown(f'<img src="{aethereus}" style="{image_style1}">',unsafe_allow_html=True)
 
     
@@ -88,8 +86,6 @@ def app():
         )
     with right_col:
         # Insert company logo
-        # img = Image.open("./static/alpha-ai.jpeg")
-        #st.image(img)
         st.markdown(f'<img src="{alphaai}" style="{image_style2}">',unsafe_allow_html=True)
 
     # --- JOB 3
@@ -113,7 +109,5 @@ def app():
         )
     with right_col:
         # Insert company logo
-        # img = Image.open("./static/vitesco.jpg")
-        #st.image(img)
         st.markdown(f'<img src="{vitesco}" style="{image_style3}">',unsafe_allow_html=True)
     st.markdown("***")
