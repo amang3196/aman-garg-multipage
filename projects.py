@@ -7,7 +7,7 @@ def app():
     cs_img = "app/static/cs.png"
     
     image_style = '''
-    height: 200px;
+    height: 150px;
     width: 400px;
     margin: 5px;
     '''
@@ -34,7 +34,8 @@ def app():
                 """
                 Developed a recommender system for a pre-built movie dataset using collaborative filtering. Similar users were identified using k-nearest neighbours.
                 """)
-            st.markdown("[Link](https://youtu.be/TXSOitGoINE)")
+            st.markdown("[Link](https://github.com/amang3196/collaborative-filtering-recommender-system)")
+            st.markdown("[Demo]()")
     
     
     with st.container():
@@ -48,4 +49,5 @@ def app():
                 Identified various segments of customers using k-means clustering based on age, gender,income and annual spending which in turn helped in developing marketing strategies.
                 """
             )
-            st.markdown("[Link](https://youtu.be/FOULV9Xij_8)")
+            st.markdown("[Link](https://github.com/amang3196/Customer-Segmentation)")
+            
