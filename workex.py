@@ -9,9 +9,9 @@ def app():
     st.write('\n')
 
     # Image paths
-    aethereus = "app/static/aethereus.png"
-    alphaai = "app/static/alpha-ai.jpeg"
-    vitesco = "app/static/vitesco.jpg"
+    aethereus = "./static/aethereus.png"
+    alphaai = "./static/alpha-ai.jpeg"
+    vitesco = "./static/vitesco.jpg"
     
     
     # Image styles
