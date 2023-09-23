@@ -99,16 +99,16 @@ def app():
         st.write("""
                      - I love chai.
                      
-                     - On the weekend, I take that Manchester United jersey out, put it on and for 2 hours it's just me watching my favorite team play my favourite game(football).
-                     
                      - In my free time I watch documentaries. 
                      
                      - Two of such domentaries pulled me towards Data Science. Those are "*The Great Hack*" and "*The Social Dilemma*".
                      
                      - I often read articles on Psychology, Neuroscience, Astronomy, Phones & Laptops, Brain Computer Interface.
                      
+                     - On the weekend, I take that Manchester United jersey out, put it on and for 2 hours it's just me watching my favorite team play my favourite game(football).
+                     
                      - Over the last couple of years I have built a habbit of going to the gym consistently. This habit has taught me how important discipline is in life.
                      
-                     - I am curious by nature. So, I request you to not be annoyed if I ask a lot of question. 
+                     - I am curious by nature. So, if I ask a lot of question please don't be annoyed. 
                      
                      """)
