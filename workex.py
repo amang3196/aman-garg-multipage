@@ -9,9 +9,9 @@ def app():
     st.write('\n')
 
     # Image paths
-    aethereus = "static/aethereus.png"
-    alphaai = "static/alpha-ai.jpeg"
-    vitesco = "static/vitesco.jpg"
+    aethereus = "app/static/aethereus.png"
+    alphaai = "app/static/alpha-ai.jpeg"
+    vitesco = "app/static/vitesco.jpg"
     
     
     # Image styles
@@ -54,7 +54,7 @@ def app():
         )
     with right_col:
         # Insert company logo
-        img = Image.open("./static/aethereus1.png")
+        # img = Image.open("./static/aethereus1.png")
         #st.image(img, width=275)
         st.markdown(f'<img src="{aethereus}" style="{image_style1}">',unsafe_allow_html=True)
 
@@ -88,7 +88,7 @@ def app():
         )
     with right_col:
         # Insert company logo
-        img = Image.open("./static/alpha-ai.jpeg")
+        # img = Image.open("./static/alpha-ai.jpeg")
         #st.image(img)
         st.markdown(f'<img src="{alphaai}" style="{image_style2}">',unsafe_allow_html=True)
 
@@ -113,7 +113,7 @@ def app():
         )
     with right_col:
         # Insert company logo
-        img = Image.open("./static/vitesco.jpg")
+        # img = Image.open("./static/vitesco.jpg")
         #st.image(img)
         st.markdown(f'<img src="{vitesco}" style="{image_style3}">',unsafe_allow_html=True)
     st.markdown("***")
