@@ -34,7 +34,7 @@ def app():
                 """
                 Developed a recommender system for a pre-built movie dataset using collaborative filtering. Similar users were identified using k-nearest neighbours.
                 """)
-            st.markdown("[Link](https://github.com/amang3196/collaborative-filtering-recommender-system) [Demo]()")
+            st.markdown("[Link](https://github.com/amang3196/collaborative-filtering-recommender-system)     [Demo]()")
             #st.markdown("[Demo]()")
     
     
