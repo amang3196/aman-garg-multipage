@@ -101,7 +101,7 @@ def app():
                      
                      - In my free time I watch documentaries. 
                      
-                     - Two of such domentaries pulled me towards Data Science. Those are "*The Great Hack*" and "*The Social Dilemma*".
+                     - Two of such documentaries pulled me towards Data Science. Those are "*The Great Hack*" and "*The Social Dilemma*".
                      
                      - I often read articles on Psychology, Neuroscience, Astronomy, Phones & Laptops, Brain Computer Interface.
                      
