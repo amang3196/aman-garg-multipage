@@ -93,10 +93,10 @@ def app():
     
     # Know me more
     with st.container():
-        text_col, image_col = st.columns([3,1])
-        with text_col:
-            st.title("Know me more!")
-            st.write("""
+        #text_col, image_col = st.columns([3,1])
+        #with text_col:
+        st.title("Know me more!")
+        st.write("""
                      - I love chai.
                      
                      - On the weekend, I take that Manchester United jersey out, put it on and for 2 hours it's just me watching my favorite team play my favourite game(football).
