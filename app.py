@@ -31,5 +31,3 @@ if selected == "Work Experience":
     workex.app()
 if selected == "Contact":
     contact.app()
-if selected == "Test":
-    test.app()

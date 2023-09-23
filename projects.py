@@ -34,7 +34,7 @@ def app():
                 """
                 Developed a recommender system for a pre-built movie dataset using collaborative filtering. Similar users were identified using k-nearest neighbours.
                 """)
-            st.markdown("[Link](https://github.com/amang3196/collaborative-filtering-recommender-system)&nbsp;&nbsp;&nbsp;[Demo]()")
+            st.markdown("[Github](https://github.com/amang3196/collaborative-filtering-recommender-system)&nbsp;&nbsp;&nbsp;[Demo]()")
             #st.markdown("[Demo]()")
     
     
@@ -49,5 +49,5 @@ def app():
                 Identified various segments of customers using k-means clustering based on age, gender,income and annual spending which in turn helped in developing marketing strategies.
                 """
             )
-            st.markdown("[Link](https://github.com/amang3196/Customer-Segmentation)")
+            st.markdown("[Link](https://github.com/amang3196/Customer-Segmentation)")          
             

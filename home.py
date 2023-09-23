@@ -89,3 +89,26 @@ def app():
             st.write('\n')
             st.write("📚", "**B.C.A** | *Symbiosis International University*")
             st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🗓️ 2018 - 2021")
+        st.markdown("***")
+    
+    # Know me more
+    with st.container():
+        text_col, image_col = st.columns([3,1])
+        with text_col:
+            st.title("Know me more!")
+            st.write("""
+                     - I love chai.
+                     
+                     - On the weekend, I take that Manchester United jersey out, put it on and for 2 hours it's just me watching my favorite team play my favourite game(football).
+                     
+                     - In my free time I watch documentaries. 
+                     
+                     - Two of such domentaries pulled me towards Data Science. Those are "*The Great Hack*" and "*The Social Dilemma*".
+                     
+                     - I often read articles on Psychology, Neuroscience, Astronomy, Phones & Laptops, Brain Computer Interface.
+                     
+                     - Over the last couple of years I have built a habbit of going to the gym consistently. It was a tough habit to build but now I will never let it go. This habit has taught me how important discipline is in life.
+                     
+                     - I am curious by nature. So, I request you to not be annoyed if I ask a lot of question. 
+                     
+                     """)

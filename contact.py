@@ -4,9 +4,7 @@ def app():
         # ---- CONTACT ----
     with st.container():
         st.write("---")
-        st.header("Get In Touch With Me!",)
-        st.write("##")
-
+        
         # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
         contact_form = """
         <form action="https://formsubmit.co/amangarg3196@gmail.com" method="POST">
@@ -18,8 +16,12 @@ def app():
         </form>
       
         """
-        left_column, right_column = st.columns(2)
+        left_column, center_col, right_column = st.columns([0.5,1,0.5])
         with left_column:
+            st.empty()
+        with center_col:
+            st.header("Get In Touch With Me!",)
+            st.write("##")
             st.markdown(contact_form, unsafe_allow_html=True)
         with right_column:
             st.empty()
