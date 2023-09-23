@@ -1,10 +1,9 @@
 from pathlib import Path
-# import requests
 import streamlit as st
-#from streamlit_lottie import st_lottie
 from PIL import Image
 import base64
-
+# import requests
+# from streamlit_lottie import st_lottie
 
 def app():
     
