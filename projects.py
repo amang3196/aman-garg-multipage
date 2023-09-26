@@ -10,12 +10,8 @@ def app():
     image_style = '''
     height: 150px;
     width: 400px;
+    margin-left: 2px;
     '''
-    image_style2 = '''
-    height: 150px;
-    width: 400px;
-    '''
-    
     
 # ---- PROJECTS ----
     with st.container():
@@ -39,7 +35,7 @@ def app():
     with st.container():
         image_column, text_column = st.columns((1, 2))
         with image_column:
-            st.markdown(f'<img src="{cs_img}" style="{image_style2}">',unsafe_allow_html=True)
+            st.markdown(f'<img src="{cs_img}" style="{image_style}">',unsafe_allow_html=True)
         with text_column:
             st.subheader("Customer Segmentation using Unsupervised Learning")
             st.write(
@@ -52,7 +48,7 @@ def app():
     with st.container():
         image_column, text_column = st.columns((1, 2))
         with image_column:
-            st.markdown(f'<img src="{ups_img}" style="{image_style2}">',unsafe_allow_html=True)
+            st.markdown(f'<img src="{ups_img}" style="{image_style}">',unsafe_allow_html=True)
         with text_column:
             st.subheader("US Police Shootings Analysis using Python")
             st.write(
