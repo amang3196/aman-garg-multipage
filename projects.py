@@ -35,20 +35,6 @@ def app():
                 """)
             st.markdown("[Github](https://github.com/amang3196/collaborative-filtering-recommender-system)&nbsp;&nbsp;&nbsp;[Demo]()")
             #st.markdown("[Demo]()")
-    
-    
-    with st.container():
-        image_column, text_column = st.columns((1, 2))
-        with image_column:
-            st.markdown(f'<img src="{ups_img}" style="{image_style2}">',unsafe_allow_html=True)
-        with text_column:
-            st.subheader("US Police Shootings Analysis using Python")
-            st.write(
-                """
-                Performed an Exploratory Data Analysis on US Police shootings. Identified various trends using data visualization.
-                """
-            )
-            st.markdown("[Link](https://github.com/amang3196/Customer-Segmentation)")
             
     with st.container():
         image_column, text_column = st.columns((1, 2))
@@ -61,5 +47,20 @@ def app():
                 Identified various segments of customers using k-means clustering based on age, gender,income and annual spending which in turn helped in developing marketing strategies.
                 """
             )
-            st.markdown("[Link](https://github.com/amang3196/US-Police-Shootings-Analysis/blob/main/Python/us_police_shootings_analysis.ipynb)")          
+            st.markdown("[Link](https://github.com/amang3196/Customer-Segmentation)")
+    
+    with st.container():
+        image_column, text_column = st.columns((1, 2))
+        with image_column:
+            st.markdown(f'<img src="{ups_img}" style="{image_style2}">',unsafe_allow_html=True)
+        with text_column:
+            st.subheader("US Police Shootings Analysis using Python")
+            st.write(
+                """
+                Performed an Exploratory Data Analysis on US Police shootings. Identified various trends using data visualization.
+                """
+            )
+            st.markdown("[Link](https://github.com/amang3196/US-Police-Shootings-Analysis/blob/main/Python/us_police_shootings_analysis.ipynb)")       
+            
+            
             

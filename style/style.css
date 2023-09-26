@@ -37,10 +37,6 @@ button[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* #get-in-touch-with-me{
-  margin-left: 32.5%;
-} */
-
 
 /* Hide Streamlit Branding */
 #MainMenu {visibility: hidden;}
@@ -51,16 +47,9 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255) !important;
   font-weight: 600;
-  /*margin-left: 20%;*/
 }
 
 a:hover {
   color: #4bc26e !important;
   text-decoration: none;
 }
-
-/* div.css-1v0mbdj.e115fcil1{
-  height: 300px;
-  width: 400px;
-  margin: 5px;
-} */
