@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 import home,workex, projects, contact,test
 
 
-st.set_page_config(page_title="Aman Garg", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Aman Garg", page_icon=":wave:", layout="wide")
 
 # Use local CSS
 def local_css(file_name):
