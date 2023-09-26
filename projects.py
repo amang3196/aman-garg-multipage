@@ -10,7 +10,7 @@ def app():
     image_style = '''
     height: 150px;
     width: 400px;
-    margin-left: 2px;
+    margin: 2.5px;
     '''
     
 # ---- PROJECTS ----
